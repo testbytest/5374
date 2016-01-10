@@ -92,7 +92,7 @@ var TrashModel = function(_lable, _cell, remarks) {
             var ans = Math.floor(sec_day / (1000*60*60*24));
             if(ans > -7 && ans < 1){
       // 不定期回収の場合（YYYYMMDD指定）
-      result_text = ans;
+      result_text = "追加収集日 "
       this.regularFlg = 0;  // 定期回収フラグオフ
       }
     }
