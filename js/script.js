@@ -88,7 +88,7 @@ var TrashModel = function(_lable, _cell, remarks) {
     } else if (this.dayCell[j].length == 2 && this.dayCell[j].substr(0,1) == "*") {
     } else if(this.dayCell[j].length == 8){
            if(this.dayCell[j] == '19930104'){
-             var = ws;
+             var ws = 2;
            }
             var add_day = new Date(this.dayCell[j].substring(0,4),this.dayCell[j].substring(4,6) - 1,this.dayCell[j].substring(6,8));
             var sec_day = today.getTime() - add_day.getTime();
